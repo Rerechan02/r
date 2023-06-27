@@ -122,6 +122,8 @@ chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
 echo " "
+wget https://raw.githubusercontent.com/Rerechan02/UDP/main/udp.sh && bash udp.sh
+wget https://raw.githubusercontent.com/Rerechan02/v/main/wireguard/installsl.sh && bash installsl.sh
 echo "Installation has been completed!!"
 echo -e ""
 sleep 2
